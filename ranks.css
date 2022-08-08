@@ -1,0 +1,29 @@
+body {
+    margin-top: 20%;
+    margin-left: 30%;
+    background-color: #bdc3c7;
+}
+
+nav {
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #12CBC4;
+    text-align: center;
+    border: #2c3e50 5px solid;
+    margin: 2% blue;
+    border-style: double;
+}
+
+h3 {
+    color: #303952;
+    display: inline-block;
+}
+
+h3:hover {
+    background-color: #0652DD;
+    height: 20px;
+    width: 80px;
+}

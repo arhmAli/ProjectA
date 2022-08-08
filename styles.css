@@ -1,0 +1,389 @@
+html {
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+
+body {
+    margin: 30px;
+    padding: 0%;
+}
+
+h1.v2 {
+    float: left;
+    font-size: 42;
+    color: #7f8fa6;
+}
+
+a.valorante:hover {
+    /* background-image: url(https://images.pcgamingwiki.com/b/ba/Valorant_cover.jpg);
+*/
+    content: url(https://images.pcgamingwiki.com/b/ba/Valorant_cover.jpg);
+    display: block;
+    height: 80px;
+    width: 150px;
+}
+
+img.openingimg {
+    border-radius: 50%;
+    border: 5px solid royalblue;
+    height: 300px;
+    width: 250px;
+    float: right;
+}
+
+img.openingimg:hover {
+    height: 350px;
+    width: 300px;
+    transition: 0.3s;
+    border-radius: 20%;
+}
+
+
+/*
+h3.agents {
+    margin-left: 800px;
+    font-size: x-large;
+    color: #6a89cc;
+}
+*/
+
+table.agents {
+    display: inline-block;
+    margin-left: 600px;
+    font-size: x-large;
+    color: #303952;
+    border: #474787 2px solid;
+    padding-bottom: 50px;
+}
+
+th {
+    text-align: center;
+    border: #474787 2px solid;
+    padding-bottom: 10px;
+}
+
+th.playstyle {
+    margin-left: 50%;
+    border: transparent;
+}
+
+td {
+    text-align: center;
+    border: #474787 2px solid;
+    padding-bottom: 10px;
+    padding-right: 50px;
+}
+
+tbody {
+    border: #474787 2px solid;
+}
+
+label.textforselect {
+    display: block;
+    margin-left: 800px;
+    color: rebeccapurple;
+    font-size: 15px;
+}
+
+select {
+    display: block;
+    margin-left: 800px;
+}
+
+h3.suggetion {
+    display: block;
+}
+
+h3.playstyle {
+    text-align: center;
+    margin-left: 50%;
+}
+
+img.agentimages1 {
+    position: absolute;
+    height: 35px;
+    width: 45px;
+    transition: 00.3s;
+    text-align: left;
+    padding-bottom: 0px;
+    border: red 1px solid;
+    border-radius: 50%;
+}
+
+img.agentimages1:hover {
+    height: 40px;
+    width: 50px;
+    transition: 0.3s;
+    border-radius: 20%;
+}
+
+img.agentimages2 {
+    position: absolute;
+    height: 35px;
+    width: 40px;
+    transition: 00.3s;
+    text-align: left;
+    padding-bottom: 0px;
+    border: blue 1px solid;
+    border-radius: 50%;
+}
+
+img.agentimages2:hover {
+    height: 40px;
+    width: 45px;
+    transition: 0.3s;
+    border-radius: 25%;
+}
+
+img.agentimages3 {
+    position: absolute;
+    height: 35px;
+    width: 45px;
+    transition: 00.3s;
+    text-align: left;
+    padding-bottom: 0px;
+    border: green 1px solid;
+    border-radius: 50%;
+}
+
+img.agentimages3:hover {
+    height: 40px;
+    width: 50px;
+    transition: 0.3s;
+    border-radius: 20%;
+}
+
+img.agentimages4 {
+    position: absolute;
+    height: 30px;
+    width: 35px;
+    transition: 00.3s;
+    text-align: left;
+    padding-bottom: 0px;
+    border: red 1px solid;
+    border-radius: 50%;
+}
+
+img.agentimages4:hover {
+    height: 35px;
+    width: 40px;
+    transition: 0.3s;
+    border-radius: 20%;
+}
+
+img.agentimages5 {
+    position: absolute;
+    height: 35px;
+    width: 40px;
+    transition: 00.3s;
+    text-align: left;
+    padding-bottom: 0px;
+    border: skyblue 1px solid;
+    border-radius: 50%;
+}
+
+img.agentimages5:hover {
+    height: 40px;
+    width: 45px;
+    transition: 0.3s;
+    border-radius: 20%;
+}
+
+img.agentimages6 {
+    position: absolute;
+    height: 30px;
+    width: 40px;
+    transition: 00.3s;
+    text-align: left;
+    padding-bottom: 0px;
+    border: red 1px solid;
+    border-radius: 50%;
+}
+
+img.agentimages6:hover {
+    height: 30px;
+    width: 45px;
+    transition: 0.3s;
+    border-radius: 20%;
+}
+
+img.agentimages7 {
+    position: absolute;
+    height: 30px;
+    width: 40px;
+    transition: 00.3s;
+    text-align: left;
+    padding-bottom: 0px;
+    border: purple 1px solid;
+    border-radius: 50%;
+}
+
+img.agentimages7:hover {
+    height: 35px;
+    width: 45px;
+    transition: 0.3s;
+    border-radius: 20%;
+}
+
+img.agentimages8 {
+    position: absolute;
+    height: 30px;
+    width: 40px;
+    transition: 00.3s;
+    text-align: left;
+    padding-bottom: 0px;
+    border: darkblue 1px solid;
+    border-radius: 50%;
+}
+
+img.agentimages8:hover {
+    height: 35px;
+    width: 45px;
+    transition: 0.3s;
+    border-radius: 20%;
+}
+
+img.agentimages9 {
+    position: absolute;
+    height: 30px;
+    width: 40px;
+    transition: 00.3s;
+    text-align: left;
+    padding-bottom: 0px;
+    border: orange 1px solid;
+    border-radius: 50%;
+}
+
+img.agentimages9:hover {
+    height: 35px;
+    width: 45px;
+    transition: 0.3s;
+    border-radius: 20%;
+}
+
+img.agentimages10 {
+    position: absolute;
+    height: 30px;
+    width: 40px;
+    transition: 00.3s;
+    text-align: left;
+    padding-bottom: 0px;
+    border: wheat 1px solid;
+    border-radius: 50%;
+}
+
+img.agentimages10:hover {
+    height: 35px;
+    width: 43px;
+    transition: 0.3s;
+    border-radius: 30%;
+}
+
+img.agentimages11 {
+    position: absolute;
+    height: 30px;
+    width: 40px;
+    transition: 00.3s;
+    text-align: left;
+    padding-bottom: 0px;
+    border: greenyellow 1px solid;
+    border-radius: 50%;
+}
+
+img.agentimages11:hover {
+    height: 35px;
+    width: 45px;
+    transition: 0.3s;
+    border-radius: 20%;
+}
+
+img.agentimages12 {
+    position: absolute;
+    height: 30px;
+    width: 40px;
+    transition: 00.3s;
+    text-align: left;
+    padding-bottom: 0px;
+    border: greenyellow 1px solid;
+    border-radius: 50%;
+}
+
+img.agentimages12:hover {
+    height: 35px;
+    width: 45px;
+    transition: 0.3s;
+    border-radius: 30%;
+}
+
+img.agentimages13 {
+    position: absolute;
+    height: 30px;
+    width: 40px;
+    transition: 00.3s;
+    text-align: left;
+    padding-bottom: 0px;
+    border: gray 1px solid;
+    border-radius: 50%;
+}
+
+img.agentimages13:hover {
+    height: 35px;
+    width: 45px;
+    transition: 0.3s;
+    border-radius: 20%;
+}
+
+img.agentimages14 {
+    position: absolute;
+    height: 30px;
+    width: 40px;
+    transition: 00.3s;
+    text-align: left;
+    padding-bottom: 0px;
+    border: mistyrose 1px solid;
+    border-radius: 50%;
+}
+
+img.agentimages14:hover {
+    height: 35px;
+    width: 40px;
+    transition: 0.3s;
+    border-radius: 20%;
+}
+
+img.agentimages15 {
+    position: absolute;
+    height: 30px;
+    width: 40px;
+    transition: 00.3s;
+    text-align: left;
+    padding-bottom: 0px;
+    border: yellow 1px solid;
+    border-radius: 50%;
+}
+
+img.agentimages15:hover {
+    height: 35px;
+    width: 40px;
+    transition: 0.3s;
+    border-radius: 40%;
+}
+
+img.agentimages16 {
+    position: absolute;
+    height: 30px;
+    width: 40px;
+    transition: 00.3s;
+    text-align: left;
+    padding-bottom: 0px;
+    border: aqua 1px solid;
+    border-radius: 50%;
+}
+
+img.agentimages16:hover {
+    height: 35px;
+    width: 45px;
+    transition: 0.3s;
+    border-radius: 30%;
+}
